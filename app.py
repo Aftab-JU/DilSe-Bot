@@ -5,7 +5,9 @@ from google.cloud import dialogflow_v2 as dialogflow
 
 
 app = Flask(__name__)
-
+@app.route('/')
+def home():
+    return 'Welcome to DilSe Bot! The service is running 🚀'
 DIALOGFLOW_PROJECT_ID = 'your-dialogflow-project-id'
 SESSION_ID = 'current-user-session'
 LANGUAGE_CODE = 'en'
