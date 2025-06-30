@@ -1,0 +1,11 @@
+{
+  "Welcome Intent": {
+    "training_phrases": [
+      "Hi",
+      "Hello"
+    ],
+    "responses": [
+      "Welcome to DilSe! How are you feeling today?"
+    ]
+  }
+}
